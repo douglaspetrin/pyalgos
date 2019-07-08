@@ -1,4 +1,4 @@
-array = [8,7,5,3,1,2,9,6,4]
+""" Bubble Sort """
 
 def sort(array):
 
@@ -12,5 +12,8 @@ def sort(array):
 
         if not exchanging:
             break
+
+
+array = [8, 7, 5, 3, 1, 2, 9, 6, 4]
 sort(array)
 print(array)
